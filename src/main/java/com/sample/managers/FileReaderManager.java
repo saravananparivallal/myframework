@@ -1,0 +1,21 @@
+package com.sample.managers;
+
+import com.sample.dataProvider.ConfigFileReader;
+
+public class FileReaderManager {
+	private static FileReaderManager fileReaderManager = new FileReaderManager();
+	private static ConfigFileReader configFileReader;
+
+	private FileReaderManager() {
+
+	}
+
+	public static FileReaderManager getInstance() {
+		return fileReaderManager;
+	}
+
+	public static ConfigFileReader getConfigReader() {
+		return (configFileReader == null) ? configFileReader = new ConfigFileReader() : configFileReader;
+	}
+
+}

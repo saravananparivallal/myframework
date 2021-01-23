@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T14:19:33.976Z",
+        "line": 4,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login-functionality;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "logn into application",
+            "match": {
+              "location": "com.sample.glue.LoginPageSteps.logn_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the \"userName\" in login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userName\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.sample.glue.LoginPageSteps.user_enters_the_in_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the \"PassWord\" in login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PassWord\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.sample.glue.LoginPageSteps.user_enter_the_in_login(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.sample.glue.LoginPageSteps.user_clicks_on_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user inputs the \"Post\" in dashborad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Post\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.sample.glue.LoginPageSteps.user_inputs_the_in_dashborad(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user validated the \"Post\" in status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Post\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.sample.glue.LoginPageSteps.user_validated_the_in_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Saran"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": []
+  }
+]
