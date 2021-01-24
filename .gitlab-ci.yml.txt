@@ -1,0 +1,9 @@
+demo_job_1:
+    tags:
+      - saran
+    script:
+      - helloworld
+
+
+
+
