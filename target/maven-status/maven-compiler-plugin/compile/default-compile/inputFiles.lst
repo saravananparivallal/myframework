@@ -1,3 +1,11 @@
-C:\Users\Owern\eclipse-workspace\Saravanan\src\main\java\com\sample\glue\LoginPageSteps.java
-C:\Users\Owern\eclipse-workspace\Saravanan\src\main\java\com\sample\pages\LoginPage.java
-C:\Users\Owern\eclipse-workspace\Saravanan\src\main\java\com\sample\report\JVMReport.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\managers\PageObjectManager.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\glue\LoginPageSteps.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\dataProvider\ConfigFileReader.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\managers\WebDriverManager.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\base\BasePage.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\context\TestContext.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\managers\FileReaderManager.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\context\ScenarioContext.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\pages\LoginPage.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\enums\DriverType.java
+C:\Users\saravanan.p\myframework\src\main\java\com\sample\report\JVMReport.java

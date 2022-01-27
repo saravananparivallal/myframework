@@ -1,0 +1,12 @@
+com\sample\context\ScenarioContext.class
+com\sample\glue\LoginPageSteps.class
+com\sample\managers\FileReaderManager.class
+com\sample\pages\LoginPage.class
+com\sample\managers\PageObjectManager.class
+com\sample\dataProvider\ConfigFileReader.class
+com\sample\managers\WebDriverManager$1.class
+com\sample\base\BasePage.class
+com\sample\report\JVMReport.class
+com\sample\managers\WebDriverManager.class
+com\sample\enums\DriverType.class
+com\sample\context\TestContext.class

@@ -13,10 +13,10 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin= {"pretty","html:target/cucumber","json:Reports\\report.json"},
-		features = "features",
+		features = "C:\\Users\\saravanan.p\\myframework\\features",
 		glue= "com/sample/glue",
 		monochrome = true,
-		dryRun= true,
+		dryRun= false,
 		tags = "@Saran"
 		) 
 public class TestRunner {
